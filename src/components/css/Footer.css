@@ -1,8 +1,13 @@
+*{
+    overflow: hidden;
+}
+
 #footer{
     display: flex;
     background-color: rgb(255, 255, 255);
     margin-top: 9%;
     font-style: oblique;
+   
 }
 #image{
     width: 50%;
