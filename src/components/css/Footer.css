@@ -1,0 +1,21 @@
+#footer{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: 9%;
+    font-style: oblique;
+}
+#image{
+    width: 50%;
+}
+@media (min-width : 800px){
+    #footer{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        margin-top: 10%;
+        font-style: oblique;
+    }
+    #image{
+        width: 20%;
+    }
+
+}

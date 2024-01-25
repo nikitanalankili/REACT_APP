@@ -8,6 +8,7 @@ import Home from "../src/components/functionalcomponents/Home";
 import About from "../src/components/functionalcomponents/About";
 import Projects from "../src/components/functionalcomponents/Projects";
 import AwardsAchievments from "../src/components/functionalcomponents/AwardsAchievments";
+import Footer from './components/functionalcomponents/Footer';
 
 function App() {
   return (
@@ -27,8 +28,9 @@ function App() {
 
 
         </Routes>
-      
+        <Footer/>
       </BrowserRouter>
+      
 
 
       {/* <header className="App-header">
