@@ -1,9 +1,9 @@
-ol{
+#navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #398ee3;
+    background-color: rgb(152, 215, 59);
     padding: 10px;
     margin: 0px;
     font-weight: bold;

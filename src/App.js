@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "../src/components/functionalcomponents/Home";
 import About from "../src/components/functionalcomponents/About";
 import Projects from "../src/components/functionalcomponents/Projects";
-import AwardsAchievments from "../src/components/functionalcomponents/AwardsAchievments";
+import Login from "../src/components/functionalcomponents/Login";
 import Footer from '../src/components/functionalcomponents/Footer';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Route path="/Home" element={<Home/>}> </Route>
           <Route path="/About" element={<About/>}> </Route>
           <Route path="/Projects" element={<Projects />}> </Route>
-          <Route path="/AwardsAchievments" element={<AwardsAchievments />}> </Route>
+          <Route path="/Login" element={<Login />}> </Route>
 
 
 

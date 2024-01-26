@@ -1,26 +1,37 @@
-*{
-    overflow: hidden;
-}
-
 #footer{
     display: flex;
-    background-color: rgb(255, 255, 255);
-    margin-top: 9%;
-    font-style: oblique;
+    background-color: rgb(152, 215, 59);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;  
+    font-weight: bold; 
+}
+#footer img{
+    max-width: 100%;
    
 }
-#image{
-    width: 50%;
+#gmailimage{
+    width: 13%;
 }
-@media (min-width : 800px){
+#linkedinimage{
+    width: 14%;
+}
+#githubimage{
+    width: 5%;
+}
+
+/* @media (min-width : 800px){
     #footer{
         display: flex;
         background-color: rgb(255, 255, 255);
         margin-top: 10%;
         font-style: oblique;
+        bottom: 0;
+    justify-content: space-evenly;
     }
-    #image{
-        width: 20%;
-    }
+    
 
-}
+} */

@@ -1,3 +1,20 @@
 #about{
     justify-content: center;
 }
+
+#image{
+    width: 40%;
+    border-radius: 8px;
+    
+}
+@media (min-width : 800px){
+    #image{
+        width: 20%; 
+    }
+}
+#homename{
+    font-size: 3rem;
+    color: #000000; /* Set the text color */
+    text-shadow: 5px 5px 0 greenyellow; /* Shadow from bottom right */  
+  
+}
